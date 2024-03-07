@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <iomanip>
-#include <algorithm>
+
 
 using namespace std;
 
@@ -13,7 +13,7 @@ private:
 
     vector<int> user_to_page_;
     vector<int> page_to_users_;
-    unsigned int ppl = 0;
+    unsigned int ppl_ = 0;
     
 
     double CheckStat(int user) {
